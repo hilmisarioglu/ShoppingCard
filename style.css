@@ -128,6 +128,37 @@ a{
 .numbers {
     padding:0.5rem;
     width: 250px;
+    cursor: pointer;
 }
-
+.addbutton{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.addbutton button{
+    flex: 1;
+    padding: 1rem 5rem;
+    background:black;
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    transition: background 0.2s ease-in-out;
+}
+.addbutton:hover{
+    background:gray;
+}
+.deliverydate{
+    margin-top: 5px;
+    display: flex;
+    font-size: 0.6rem;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items:center;
+    padding:0.1rem
+}
 
